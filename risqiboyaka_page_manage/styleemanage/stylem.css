@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:opsz,wght@9..144,400;9..144,900&family=Gentium+Book+Basic:ital@1&family=Inter:wght@500&family=Mulish&family=Open+Sans&family=Poppins:wght@500&family=Roboto&family=Stoke&display=swap');
+
+.container {
+    width: 1200px;
+}
+
+.col_ul_li_a {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.col_img {
+    width: 1200px;
+    height: 500px;
+    margin-top: 94px;
+}
+
+
+.card-title {
+    width: 350px;
+    height: 42px;
+    margin-top: 48px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+
+}
+
+
+.card-text {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+.card-title-h5 {
+    margin-top: 48px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.285714px;
+
+}
+
+.btn {
+    width: 178px;
+    height: 48px;
+    border: 1px solid black;
+    margin-top: 179px;
+    display: flex;
+    justify-content: start;
+
+}
+
+.card__img {
+    width: 635px;
+    height: 400px;
+    margin-top: 28px;
+}
+
+.container_text {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px
+}
+
+.container_text_next {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #aeaeb3;
+}
+
+.rectangle {
+    width: 1px;
+    height: 130px;
+    background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+
+.section_blok-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.section_blok-title h4 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+}
+
+.section_blok-title .section_blok-title_rectangle {
+    width: 534px;
+    height: 1px;
+    margin-top: 48px;
+    background: #040404;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+
+button {
+    width: 162px;
+    height: 48px;
+    margin-top: 25px;
+    border: 1px solid black;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* footer section2 */
+.col__ul_li {
+    list-style: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.col .col__image{
+    position: relative;
+    left: 300px;
+    
+}
