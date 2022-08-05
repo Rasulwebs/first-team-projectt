@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+
+}
+
+.nav__list {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+}
+
+.nav__list a:hover {
+
+    color: #5FB4A2;
+}
+
+.nav__list a:active {
+    color: #7a7983;
+}
+
+.get-cont {
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    justify-content: space-between;
+}
+
+.hr {
+    width: 100%;
+    height: 2px;
+    background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+
+.gett {
+    display: flex;
+    justify-content: space-between;
+}
+
+.get__title h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.get__text {
+    width: 635px;
+}
+
+.get__text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    color: #33323D;
+    margin-bottom: 20px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.get__text__links a {
+    margin-right: 10px;
+
+}
+
+.me-cont {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+form label p {
+    margin: 20px 0 10px 0;
+}
+
+
+
+form label:nth-child(1) input {
+    font-family: sans-serif;
+    color: #33323D;
+    background: #eeeeee;
+    border: none;
+    outline: none;
+    padding: 9px 470px 9px 16px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+form label:nth-child(2) input {
+    font-family: sans-serif;
+    color: #33323D;
+    background: #eeeeee;
+    border: none;
+    outline: none;
+    padding: 9px 470px 9px 16px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+form label:nth-child(3) input {
+    font-family: sans-serif;
+    color: #33323D;
+    background: #eeeeee;
+    border: none;
+    outline: none;
+
+    padding: 9px 470px 90px 16px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+.contact__title h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.send {
+    margin-top: 30px;
+}
+
+.send input {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 17px 24px 17px 24px;
+    color: #FFFFFF;
+    background: #203A4C;
+    border: none;
+}
+
+.send input:hover {
+    background: #466072;
+}
+
+
+footer {
+    width: 100%;
+    background: #33323D;
+    padding: 30px 0 30px 0;
+}
+
+.footer_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer__links {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__links a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.footer__links a:hover {
+    color: #92dbcc;
+}
+
+.footer__links a:active {
+    color: #fff;
+}
+
+
+.footer_messenger {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

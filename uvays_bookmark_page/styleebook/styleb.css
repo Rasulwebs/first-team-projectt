@@ -1,0 +1,945 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* header .container-fluid {
+    height: 120px;
+    align-items: center;
+  }
+  header .container-fluid .nav__link .active {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #5FB4A2 !important;
+  }
+  header .container-fluid .nav__link .nav-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+  } */
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+
+.nav__list {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+}
+
+.nav__list a:hover {
+
+    color: #5FB4A2;
+}
+
+.nav__list a:active {
+    color: #7a7983;
+}
+  main .hero__img {
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+  }
+  main .hero__img .hero__text {
+    opacity: 1;
+    padding: 56px 56px 0 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 500px;
+  }
+  main .hero__img .hero__text h2 {
+    font-family: "Ibarra Real Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    /* or 100% */
+    letter-spacing: -0.446429px;
+    color: #33323D;
+    font-family: "Ibarra Real Nova", serif;
+  }
+  main .hero__img .hero__text .hero__to__contackt {
+    justify-content: center;
+    align-items: center;
+    padding: 17px 0;
+    background: #203A4C;
+    margin-top: 53px;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+  }
+  main .hero__img .hero__text .hero__to__contackt img {
+    left: 17px;
+    position: absolute;
+  }
+  main .about .about__img__or__text {
+    max-width: 1015px;
+    padding: 150px 0;
+  }
+  main .about .about__img__or__text .row {
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .about .about__img__or__text .row img {
+    max-width: 540px;
+  }
+  main .about .about__img__or__text .text__about {
+    width: 350px;
+    position: relative;
+    left: 150px;
+    height: 600px;
+    align-items: center;
+  }
+  main .about .about__img__or__text .text__about span:nth-child(1) {
+    position: absolute;
+    width: 350px;
+    opacity: 0.5;
+    height: 1px;
+    background: #33323D;
+    top: 0;
+    margin: auto;
+  }
+  main .about .about__img__or__text .text__about span:nth-child(2) {
+    position: absolute;
+    width: 350px;
+    opacity: 0.5;
+    height: 1px;
+    background: #33323D;
+    bottom: 0px;
+    margin: auto;
+  }
+  main .about .about__img__or__text .text__about h2 {
+    padding-top: 50px;
+    position: relative;
+    font-family: "Ibarra Real Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+    letter-spacing: -0.357143px;
+    color: #33323D;
+  }
+  main .about .about__img__or__text .text__about p {
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  main .about .about__img__or__text .text__about .index__to__porfolio {
+    padding: 17px 32px;
+    border: 1px solid #33323D;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    text-decoration: none;
+  }
+  main .interesting .row {
+    align-items: center;
+    text-align: end;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  main .interesting h2 {
+    text-align: center !important;
+    display: block;
+    width: 350px;
+    font-family: "Ibarra Real Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* or 105% */
+    letter-spacing: -0.357143px;
+    color: #33323D;
+  }
+  main .interesting .index__to__contaktga {
+    padding: 17px 32px;
+    border: 1px solid #33323D;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    text-decoration: none;
+  }
+  
+  footer {
+    margin-top: 150px;
+    padding: 24px 0;
+  }
+  footer .nav-link {
+    color: #FFFFFF !important;
+  }
+  footer .link__footer a {
+    text-decoration: none;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  footer .webs {
+    float: right;
+  }
+  footer .webs a {
+    text-decoration: none;
+  }
+  footer .webs a i {
+    color: #FFFFFF;
+    margin-left: 15px;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .hero__text {
+      opacity: 1;
+      padding: 56px 56px 0 0;
+      background: white;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100% !important;
+      height: 100%;
+    }
+    .hero__text h2 {
+      text-align: center;
+      font-family: "Ibarra Real Nova";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 50px;
+      /* or 100% */
+      letter-spacing: -0.446429px;
+      color: #33323D;
+      font-family: "Ibarra Real Nova", serif;
+    }
+    .hero__text .hero__to__contackt {
+      justify-content: center;
+      align-items: center;
+      padding: 17px 0;
+      background: #203A4C;
+      margin-top: 53px;
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      text-decoration: none;
+      position: relative;
+    }
+    .hero__text .hero__to__contackt img {
+      left: 17px;
+      position: absolute;
+    }
+    .about {
+      position: relative;
+      top: -300px;
+      bottom: -300px;
+    }
+    .interesting {
+      position: relative;
+      top: -500px;
+    }
+    .about__img__or__text {
+      padding-top: 50px !important;
+    }
+    .text__about {
+      height: 400px;
+      margin: 50px -200px;
+    }
+    .text__about span:nth-child(2) {
+      position: absolute;
+      width: 350px;
+      opacity: 0.5;
+      height: 1px;
+      background: #33323D;
+      top: 200px;
+      margin: auto;
+    }
+    .about__img {
+      width: 540px;
+    }
+    .about__img {
+      margin: auto;
+    }
+    .text__about {
+      margin-left: 50px;
+      width: 540px;
+    }
+    .text__about p {
+      width: 540px;
+    }
+
+  
+    footer {
+      position: relative;
+      top: -570px;
+    }
+ 
+  }
+  @media only screen and (max-width: 576px) {
+    .hero__text {
+      opacity: 1;
+      padding: 56px 56px 0 0;
+      background: white;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .hero__text h2 {
+      font-family: "Ibarra Real Nova";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 50px;
+      /* or 100% */
+      letter-spacing: -0.446429px;
+      color: #33323D;
+      font-family: "Ibarra Real Nova", serif;
+    }
+    .hero__text .hero__to__contackt {
+      justify-content: center;
+      align-items: center;
+      padding: 17px 0;
+      background: #203A4C;
+      margin-top: 53px;
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      text-decoration: none;
+      position: relative;
+    }
+    .hero__text .hero__to__contackt img {
+      left: 17px;
+      position: absolute;
+    }
+    .text__about {
+      margin-top: 50px;
+      margin-left: -70px;
+    }
+    .text__about span {
+      display: none;
+    }
+    .about__img {
+      width: 400px;
+      margin: 50px auto;
+    }
+    .text__about p {
+      width: 350px;
+    }
+    .interesting {
+      margin-top: -60px;
+      align-items: center;
+    }
+    .interesting h2 {
+      text-align: center;
+      width: 100%;
+      margin-left: 30px;
+    }
+    .index__to__contaktga {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .webs {
+      margin-top: 20px;
+      float: left !important;
+    }
+  }
+ 
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+ 
+  html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .ul {
+    list-style-type: none;
+  }
+  
+  .con-hea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .can__div__1 .link {
+    text-decoration: none;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    border: 1px solid #33323D;
+    padding: 17px 32px;
+  }
+  
+  .liink__100 {
+    text-decoration: none;
+    height: 14px;
+    left: 79.84%;
+    right: 12.69%;
+    top: calc(50% - 7px);
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #5FB4A2;
+  }
+  
+  .teeext {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .liiist {
+    margin-left: 50px;
+  }
+  
+  .pro_a__10_ .link {
+    padding: 17px 32px;
+    border: 1px solid #33323D;
+  }
+  
+  .can__div {
+    width: 540px;
+    height: 500px;
+    left: 165px;
+    top: 190px;
+    background: #FFEFEC;
+  }
+  
+  .can__div__2 {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .can__h_1 {
+    top: calc(50% - 21px - 125px);
+    font-family: "Ibarra Real Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+  }
+  
+  .can__p_1 {
+    width: 350px;
+    height: 150px;
+    top: calc(50% - 75px - 1px);
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-top: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    height: 14px;
+    left: 18.29%;
+    right: 90.57%;
+    top: calc(50% - 7px);
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+  }
+  
+  .can__div__1 {
+    margin-left: 160px;
+  }
+  
+  .pro__1 {
+    margin-right: 100px;
+  }
+  
+  .div__pro__1 {
+    width: 540px;
+    height: 500px;
+    left: 735px;
+    top: 770px;
+    background: #4F63D8;
+  }
+  
+  .div__pro__2 {
+    width: 540px;
+    height: 500px;
+    left: 735px;
+    top: 770px;
+    background: #4F63D8;
+  }
+  
+  .van__h__2 {
+    width: 350px;
+    height: 84px;
+    right: 68.47%;
+    top: calc(50% - 42px);
+    font-family: "Ibarra Real Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+  }
+  
+  .container__11 {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+  }
+  
+  .pro_a__10_ {
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+  }
+  
+  .container__12 {
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 2814px;
+    background: #33323D;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .link__10 {
+    text-decoration: none;
+    height: 14px;
+    left: 0%;
+    right: 86.08%;
+    top: calc(50% - 7px);
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    color: #FFFFFF;
+  }
+  
+  .text__1 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .text__2 {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 150px;
+  }
+  
+  .list__11 {
+    list-style: none;
+    margin-left: 30px;
+  }
+  
+  footer{
+    width: 100%;
+    background: #33323D;
+    padding: 30px 0 30px 0;
+}
+.footer_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer__links{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__links a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.footer__links a:hover{
+    color: #92dbcc;
+}
+.footer__links a:active{
+    color: #fff;
+}
+
+
+.footer_messenger{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+  /* manager */
+  
+  .container__body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  
+  
+  
+  .container__body__left__inside img {
+    padding: 48px;
+  }
+  
+  .container__body__left__inside h4 {
+    padding: 15px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+  
+    color: #33323D;
+  }
+  
+  .container__body__left__inside h5 {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+  
+    color: #5FB4A2;
+  }
+  
+  
+  
+  .container__body__left__inside a {
+    position: relative;
+    top: 20px;
+    border: 1px solid black;
+    padding: 17px 36px;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+  
+  }
+  
+  .container__body__left__inside p {
+    width: 350px;
+    height: 150px;
+  
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 200% */
+  
+  
+    color: #33323D;
+  }
+  
+  .container__body__right {
+    margin-left: 125px;
+  }
+  
+  .container__body__right h4 {
+    margin: 30px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+  
+    color: #33323D;
+  }
+  
+  .container__body__right p {
+    width: 635px;
+    height: 180px;
+  
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 200% */
+  
+  
+    color: #33323D;
+  
+  }
+  
+  .fylo_bookmark {
+    margin-top: 100px;
+  }
+  
+  .bookmark-in {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .fylo {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .fylo img {
+    position: relative;
+    right: 50px;
+    top: -50px;
+  }
+  
+  .bookmark {
+    margin-top: 20px;
+    margin-right: 100px;
+  }
+  
+  .bookmark img {
+    position: relative;
+    left: 140px;
+    top: -50px;
+  }
+  
+  .interested {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .interested a {
+    padding: 17px 31px;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .insure__top__img {
+    margin-top: 100px;
+    background-image: url(../images/insure__top__img.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .insure__sidbar {
+    margin-top: 110px;
+  }
+  
+  .insure__sidbar h2 {
+    font-family: "Ibarra Real Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+    letter-spacing: -0.357143px;
+    color: #33323D;
+  }
+  
+  .insure__sidbar p {
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 200% */
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-top: 30px;
+  }
+  
+  .insure__sidbar span {
+    font-family: "Public Sans";
+    font-style: normal;
+    margin-top: 23px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    display: block;
+    color: #5FB4A2;
+  }
+  
+  .insure__sidbar a {
+    padding: 17px 32px;
+    display: inline-block;
+    margin-top: 32px;
+    border: 1px solid #33323D;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    text-decoration: none;
+  }
+  
+  .insure__sidbar .asside h2 {
+    font-family: "Ibarra Real Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height, or 131% */
+    letter-spacing: -0.285714px;
+    color: #33323D;
+  }
+
+  .insure__sidbar .asside p {
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 200% */
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  
+  .insure__sidbar .asside h3 {
+    font-family: "Ibarra Real Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+   
+    letter-spacing: -0.285714px;
+    color: #33323D;
+  }

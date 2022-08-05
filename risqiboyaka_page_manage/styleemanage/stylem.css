@@ -10,8 +10,44 @@
 .container {
     width: 1200px;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+
+.nav__list {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+}
+
+.nav__list a:hover {
+
+    color: #5FB4A2;
+}
+
+.nav__list a:active {
+    color: #7a7983;
+}
 
 .col_ul_li_a {
+    color: #33323D;
     font-family: 'Public Sans';
     font-style: normal;
     font-weight: 400;
@@ -19,6 +55,9 @@
     line-height: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+.col_ul_li a:hover{
+    color: #92dbcc;
 }
 
 .col_img {
@@ -71,6 +110,10 @@
     justify-content: start;
 
 }
+.visit__btn a{
+    text-decoration: none;
+    color: #33323D;
+}
 
 .card__img {
     width: 635px;
@@ -94,6 +137,10 @@
     font-size: 16px;
     line-height: 30px;
     color: #aeaeb3;
+    
+}
+.end-text {
+    margin-bottom: 150px;
 }
 
 .rectangle {
@@ -157,4 +204,49 @@ button {
     position: relative;
     left: 300px;
     
+}
+
+footer{
+    width: 100%;
+    background: #33323D;
+    padding: 30px 0 30px 0;
+}
+.footer_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer__links{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__links a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.footer__links a:hover{
+    color: #92dbcc;
+}
+.footer__links a:active{
+    color: #fff;
+}
+
+
+.footer_messenger{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
