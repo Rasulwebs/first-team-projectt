@@ -44,6 +44,9 @@
 .nav-link:hover {
   color: rgba(95, 180, 162, 1);
 }
+.nav-link:active{
+  color: black;
+}
 
 .hero {
   display: flex;
@@ -106,6 +109,14 @@
   padding: 17px 32px;
   margin-top: 41px;
 }
+.link-1:hover{
+  color: #9e9ea8;
+  border: 1px solid #9e9ea8;
+}
+.link-1:active{
+  color: rgba(51, 50, 61, 1);
+  border: 1px solid black;
+}
 .section-1-cards {
   display: flex;
   margin-top: 80px;
@@ -117,6 +128,7 @@
 .section-2 {
   display: flex;
   margin-top: 80px;
+  
 }
 .section-3-cards {
   display: flex;
@@ -131,6 +143,9 @@
   justify-content: space-between;
   width: 1200px;
   align-items: center;
+}
+.section-4 {
+  margin-bottom: 150px;
 }
 h1 {
   font-family: Ibarra Real Nova;
@@ -157,40 +172,57 @@ h1 {
   letter-spacing: 2px;
   text-align: left;
 }
-footer {
-  background: rgba(51, 50, 61, 1);
-  height: 80px;
-  width: 1347px;
-  margin: auto;
+.link-2:hover{
+  color: #9e9ea8;
+  border: 1px solid #9e9ea8;
 }
-.footer-cards {
+.link-2:active{
+  color: rgba(51, 50, 61, 1);
+  border: 1px solid black;
+}
+footer{
+  width: 100%;
+  background: #33323D;
+  padding: 30px 0 30px 0;
+}
+.footer_cont{
   display: flex;
-  width: 1200px;
   justify-content: space-between;
   align-items: center;
-  margin-top: 150px;
+  
 }
-.card-2 {
-  width: 268px;
-}
-.footer-ul {
+
+.footer__links{
   display: flex;
-  width: 368px;
-  margin-left: -250px;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
 }
-.footer-li {
-  list-style-type: none;
-}
-.footer-link {
+.footer__links a{
   text-decoration: none;
-  color: white;
-  padding: 10px;
-  font-family: Public Sans;
-  font-size: 12px;
+  font-family: sans-serif;
   font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 2px;
-  text-align: left;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.footer__links a:hover{
+  color: #92dbcc;
+}
+.footer__links a:active{
+  color: #fff;
+}
+
+
+.footer_messenger{
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .card-3 {
   margin: 10px;
